@@ -1,0 +1,42 @@
+.photo-box {
+    width: 100%;
+    height: 20rem;
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative;
+}
+
+.photo-box>img {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+
+.left-icon {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    cursor: pointer;
+}
+
+.right-icon {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1480px){
+    .photo-box {
+        width: 95%;
+        height: 20rem;
+        overflow: hidden;
+        border-radius: 20px;
+        position: relative;
+        margin: 0 auto;
+    }
+    
+    
+}

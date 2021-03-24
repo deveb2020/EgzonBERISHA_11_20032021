@@ -1,0 +1,174 @@
+.apt-info-wrapper {
+    padding: 0 10rem;
+}
+
+.group-element-principale  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.group-elements-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.group-elements-right {
+    display: block;
+}
+
+.name-photo-wrapper {
+    display: flex;
+}
+
+.title, .location {
+    color: #FF6060;
+}
+
+.host-photo {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    margin-top: 1rem;
+
+}
+
+.host-name {
+    margin-top: 3rem;
+    margin-right: 0.5rem;
+    color: #FF6060;
+    width: 3rem;
+}
+
+.tags-list-wrapper {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.tag {
+    background-color: #FF6060;
+    border-radius: 20px;
+    margin-right: 0.5rem;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    color: white;
+    margin: 0.5rem;
+}
+
+/** Expandend-description CSS **/
+
+.expandables-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem auto;
+    margin-bottom: 5rem !important;
+}
+
+.description, .equipements {
+    width: 35rem;
+}
+
+.description-txt, .equipements-txt {
+    max-width: 35rem;
+    background-color: #FF6060;
+    padding: 0.5rem;
+    border-radius: 7px;
+    color: white;   
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.description-txt>p, .equipements-txt>p {
+    margin: 0;
+}
+
+.expendavle-div-description {
+    padding: 1rem;
+    justify-content: center;    
+    background-color: rgba(243, 237, 237, 0.596);
+    margin: 0 auto;
+}
+
+
+.expendavle-div-equipements {
+    padding: 1rem;
+    justify-content: center;    
+    background-color: rgba(243, 237, 237, 0.561);
+    margin: 0 auto;
+}
+
+.expendavle-div-description>p, .color-tag {
+    color: #FF6060;
+}
+
+.expendavle-div-equipements>ul {
+    list-style: none;
+}
+
+.collapse-div-description {
+    height: 0;
+    overflow: hidden;
+}
+
+.collapse-div-equipements {
+    height: 0;
+    overflow: hidden;   
+}
+
+/** Rating **/
+
+.rate{
+    float: right;
+    margin-top: 3rem;
+}
+
+@media screen and (max-width: 1480px){
+    .apt-info-wrapper {
+        height: auto;
+        padding: 0;
+        width: 100%;
+    }
+    .expandables-wrapper {
+        display: block;
+    }
+    .description, .equipements {
+        width: 100%;
+        margin: 1rem 0;
+    }
+    .description-txt, .equipements-txt {
+        max-width: 95%;
+        margin-top: 1rem;
+        margin: 0 1rem;
+    }
+    .group-element-principale  {
+        display: block;
+    }
+    .group-elements-right {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 2rem;
+    }
+    .name-photo-wrapper {
+        order: 2;
+    }
+    .group-element-left {
+        padding-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .group-elements-right {
+        padding: 0 1rem;
+    }
+    .host-name {
+        margin-right: 0.5rem;
+        width: 4rem;
+    }
+    .expendavle-div-description, .expendavle-div-equipements {
+        width: 80%;
+    }
+}
