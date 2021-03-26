@@ -16,6 +16,9 @@ function App() {
                     <Route exact path="/">
                         <Appartements/>
                     </Route>
+                    <Route exact path="/EgzonBERISHA_11_20032021">
+                         <Appartements/>
+                    </Route>
                     <Route exact path="/About">
                         <About/>
                     </Route>
