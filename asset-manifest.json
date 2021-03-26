@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/EgzonBERISHA_11_20032021/static/css/main.a3c5627e.chunk.css",
-    "main.js": "/EgzonBERISHA_11_20032021/static/js/main.a6f662ea.chunk.js",
-    "main.js.map": "/EgzonBERISHA_11_20032021/static/js/main.a6f662ea.chunk.js.map",
+    "main.js": "/EgzonBERISHA_11_20032021/static/js/main.094eb987.chunk.js",
+    "main.js.map": "/EgzonBERISHA_11_20032021/static/js/main.094eb987.chunk.js.map",
     "runtime-main.js": "/EgzonBERISHA_11_20032021/static/js/runtime-main.37e81a41.js",
     "runtime-main.js.map": "/EgzonBERISHA_11_20032021/static/js/runtime-main.37e81a41.js.map",
     "static/js/2.2842bd7f.chunk.js": "/EgzonBERISHA_11_20032021/static/js/2.2842bd7f.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.37e81a41.js",
     "static/js/2.2842bd7f.chunk.js",
     "static/css/main.a3c5627e.chunk.css",
-    "static/js/main.a6f662ea.chunk.js"
+    "static/js/main.094eb987.chunk.js"
   ]
 }
