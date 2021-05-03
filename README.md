@@ -26,7 +26,7 @@ To display the apartments, I use a list of objects then I loop throughth this li
 ## Where to find the project ?
 
 This project is deployed using Github Pages, to see the project you can click in this link:
-[https://deveb2020.github.io/]
+[https://deveb2020.github.io/EgzonBERISHA_11_20032021/]
 
 
 
