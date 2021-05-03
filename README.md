@@ -8,7 +8,7 @@ Tech used for creating this app:
 
 ## Purpose of the project 
 
-The main objective of this project was to become familiar with ** React ** and more precisely to understand:
+The main objective of this project was to become familiar with **React** and more precisely to understand:
 - **React Components**
 - **React Hooks** [ useState, useEffect ]
 - **React Router**
